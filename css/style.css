@@ -238,7 +238,7 @@ html, body, .wrapper{
     width: 165px;
     display: block;
     height: 7px;
-    background:#1abc9c;
+    background:#179858;
     position: absolute;
     bottom: -25px;
     margin: 0 auto;
@@ -348,7 +348,7 @@ header.header-section.fixed {
     top: 0;
     background: #fff;
     z-index: 99999;
-    border-bottom: 1px solid #1abc9c;
+    border-bottom: 1px solid #179858;
     padding: 10px 0;
     transition: all 1s;
 }
@@ -367,7 +367,7 @@ header.header-section.fixed {
     color: #555252;
 }
 .header-section .navbar .navbar-brand b{
-    color: #1abc9c;
+    color: #179858;
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form{
@@ -392,7 +392,7 @@ ul.navbar-nav li a{
     text-transform: uppercase;
 }
 ul.navbar-nav li.active a, ul.navbar-nav li a:hover{
-    color: #1abc9c !important;
+    color: #179858 !important;
 }
 ul.navbar-nav.cart-menu li a{
     padding-right: 0;
@@ -452,14 +452,14 @@ span.shoping-cart {
     position: relative;
     background: #fff;
     z-index: 9999999;
-    color: #1abc9c;
+    color: #179858;
 }
 /*
     SEAARCH SECTION
  */
 .search-section{
     display: block;
-    background: url(../images/bg.png) #1abc9c no-repeat;
+    background: url(../images/bg.png) #179858 no-repeat;
     background-size: cover;
     background-attachment: fixed;
     text-align: center;
@@ -526,7 +526,7 @@ span.shoping-cart {
     padding: 0;
 }
 .carousel-inner .item .carousel-caption h2 b{
-    color: #1abc9c
+    color: #179858
 }
 
 .carousel-inner .item .carousel-caption h3{
@@ -540,13 +540,13 @@ span.shoping-cart {
     padding: 0;
 }
 .carousel-inner .item .carousel-caption h3 span{
-    color: #1abc9c;
+    color: #179858;
 }
 
 .carousel-inner .item .carousel-caption a{
     display: inline-block;
     padding: 13px 30px;
-    border: 2px solid #1abc9c;
+    border: 2px solid #179858;
     color: #fff;
     text-transform: uppercase;
     text-shadow: none;
@@ -556,7 +556,7 @@ span.shoping-cart {
     margin-top: 10px;
 }
 .carousel-inner .item .carousel-caption a:hover{
-    background: #1abc9c;
+    background: #179858;
 }
 .carousel-control{
     background-image: none !important;
@@ -648,7 +648,7 @@ a.carousel-control.right > span{
     line-height: 24px;
 }
 .service-item:hover h3, .service-item:hover i{
-    color: #1abc9c
+    color: #179858
 
 }
 
@@ -719,8 +719,8 @@ a.carousel-control.right > span{
     margin-right: 5px;
 }
 .product-hover a:hover{
-    background: #1abc9c;
-    border: 1px solid #1abc9c
+    background: #179858;
+    border: 1px solid #179858
 }
 
 .product-title{
@@ -735,7 +735,7 @@ a.carousel-control.right > span{
     transition: all 0.5s;
 }
 .product-item:hover .product-title{
-    background:#1abc9c;
+    background:#179858;
 }
 
 .product-title h3{
@@ -752,7 +752,7 @@ a.carousel-control.right > span{
 }
 .product-title span{
     display: block;
-    background: rgba(255, 255, 255, 0.5);
+    background: #179858;
     float: right;
     text-align: left;
     color: #fff;
@@ -817,8 +817,8 @@ a.carousel-control.right > span{
     cursor: pointer;
 }
 .filter-menu ul li.active{
-    background: #1abc9c;
-    border: 1px solid #1abc9c;
+    background: #179858;
+    border: 1px solid #179858;
     color: #fff;
 }
 
@@ -827,7 +827,7 @@ a.carousel-control.right > span{
     width: 30px;
     height: 30px;
     background: #fff;
-    color: #1abc9c;
+    color: #179858;
     font-weight: 700;
     display: block;
     padding: 5px;
@@ -947,7 +947,7 @@ a.carousel-control.right > span{
 .feedback .item .carousel-caption h3{
     font-size: 18px;
     font-weight: 700;
-    color: #1abc9c;
+    color: #179858;
     text-align: center;
 }
 .feedback .item .carousel-caption span{
@@ -985,7 +985,7 @@ a.carousel-control.right > span{
     border-radius: 50%;
     float: left;
     position: relative;
-    border: 5px solid #1abc9c;
+    border: 5px solid #179858;
     margin: 10px;
 }
 
@@ -1003,7 +1003,7 @@ a.carousel-control.right > span{
  */
 .news-letter-section{
     display: block;
-    background: url(../images/bg.png) #1abc9c no-repeat;
+    background: url(../images/bg.png) #179858 no-repeat;
     background-size: cover;
     background-attachment: fixed;
     text-align: center;
@@ -1061,7 +1061,7 @@ a.carousel-control.right > span{
     display: block;
     padding: 16px;
     width: 100px;
-    background: #1abc9c;
+    background: #179858;
     border: none;
     bottom: 2px;
     top: 2px;
@@ -1091,7 +1091,7 @@ a.carousel-control.right > span{
 .client-area .item img{
     width: 100%;
     height: auto;
-    border: 1px solid #1abc9c;
+    border: 1px solid #179858;
 }
 
 /*
@@ -1126,7 +1126,7 @@ a.carousel-control.right > span{
     width: 50%;
     height: 3px;
     display: block;
-    background: #1abc9c;
+    background: #179858;
     bottom: -8px;
 }
 
@@ -1141,7 +1141,7 @@ a.carousel-control.right > span{
     display: inline-block;
     color: #fff;
     font-weight: 300;
-    background: #1abc9c;
+    background: #179858;
     padding: 10px 30px;
     font-size: 16px;
     border-radius: 3px;
@@ -1189,7 +1189,7 @@ a.carousel-control.right > span{
     font-weight: 300;
 }
 .contact-section .left-content h1 span{
-    color: #1abc9c;
+    color: #179858;
 }
 
 .contact-section .left-content h3{
@@ -1211,7 +1211,7 @@ a.carousel-control.right > span{
     font-family: 'Roboto';
 }
 .contact-section .left-content p b{
-    color: #1abc9c;
+    color: #179858;
 }
 
 .contact-section .left-content p{}
@@ -1249,8 +1249,8 @@ a.carousel-control.right > span{
     padding: 7px 0;
 }
 .social-media ul li a:hover i{
-    background: #1abc9c;
-    border: 1px solid #1abc9c;
+    background: #179858;
+    border: 1px solid #179858;
 }
 .contact-form{
     margin-top: 10px;
@@ -1276,14 +1276,14 @@ a.carousel-control.right > span{
     height: 150px;
 }
 .contact-form .input-group .form-control:focus, .contact-form .input-group .form-control:hover{
-    border: 1px solid #1abc9c;
+    border: 1px solid #179858;
     box-shadow: none;
-    color: #1abc9c !important;
+    color: #179858 !important;
 }
 
 .contact-form .input-group input.contact-submit{
     display: inline-block;
-    background: #1abc9c !important;
+    background: #179858 !important;
     padding: 10px 40px;
     border: none;
     color: #fff !important;
@@ -1311,7 +1311,7 @@ footer.footer p{
     text-align: center;
 }
 footer.footer p a{
-    color: #1abc9c
+    color: #179858
 }
 
 /* PERLOADER */
@@ -1348,7 +1348,7 @@ footer.footer p a{
     position: relative;
     width: 30px;
     height: 30px;
-    background: #1abc9c;
+    background: #179858;
     float: left;
     text-align: center;
     line-height: 30px;
@@ -1359,36 +1359,36 @@ footer.footer p a{
 
     @-webkit-keyframes preloader {
       0% {
-        box-shadow: -2em 0 0 #1abc9c, 0 -2em 0 rgba(163, 189, 227, 0.75), 2em 0 0 rgba(163, 189, 227, 0.5), 0 2em 0 rgba(163, 189, 227, 0.25);
+        box-shadow: -2em 0 0 #179858, 0 -2em 0 rgba(163, 189, 227, 0.75), 2em 0 0 rgba(163, 189, 227, 0.5), 0 2em 0 rgba(163, 189, 227, 0.25);
       }
       25% {
-        box-shadow: -2em 0 0 rgba(163, 189, 227, 0.25), 0 -2em 0 #1abc9c, 2em 0 0 rgba(163, 189, 227, 0.75), 0 2em 0 rgba(163, 189, 227, 0.5);
+        box-shadow: -2em 0 0 rgba(163, 189, 227, 0.25), 0 -2em 0 #179858, 2em 0 0 rgba(163, 189, 227, 0.75), 0 2em 0 rgba(163, 189, 227, 0.5);
       }
       50% {
-        box-shadow: -2em 0 0 rgba(163, 189, 227, 0.5), 0 -2em 0 rgba(163, 189, 227, 0.25), 2em 0 0 #1abc9c, 0 2em 0 rgba(163, 189, 227, 0.75);
+        box-shadow: -2em 0 0 rgba(163, 189, 227, 0.5), 0 -2em 0 rgba(163, 189, 227, 0.25), 2em 0 0 #179858, 0 2em 0 rgba(163, 189, 227, 0.75);
       }
       75% {
-        box-shadow: -2em 0 0 rgba(163, 189, 227, 0.75), 0 -2em 0 rgba(163, 189, 227, 0.5), 2em 0 0 rgba(163, 189, 227, 0.25), 0 2em 0 #1abc9c;
+        box-shadow: -2em 0 0 rgba(163, 189, 227, 0.75), 0 -2em 0 rgba(163, 189, 227, 0.5), 2em 0 0 rgba(163, 189, 227, 0.25), 0 2em 0 #179858;
       }
       100% {
-        box-shadow: -2em 0 0 #1abc9c, 0 -2em 0 rgba(163, 189, 227, 0.75), 2em 0 0 rgba(163, 189, 227, 0.5), 0 2em 0 rgba(163, 189, 227, 0.25);
+        box-shadow: -2em 0 0 #179858, 0 -2em 0 rgba(163, 189, 227, 0.75), 2em 0 0 rgba(163, 189, 227, 0.5), 0 2em 0 rgba(163, 189, 227, 0.25);
       }
     }
     @keyframes preloader {
       0% {
-        box-shadow: -2em 0 0 #1abc9c, 0 -2em 0 rgba(163, 189, 227, 0.75), 2em 0 0 rgba(163, 189, 227, 0.5), 0 2em 0 rgba(163, 189, 227, 0.25);
+        box-shadow: -2em 0 0 #179858, 0 -2em 0 rgba(163, 189, 227, 0.75), 2em 0 0 rgba(163, 189, 227, 0.5), 0 2em 0 rgba(163, 189, 227, 0.25);
       }
       25% {
-        box-shadow: -2em 0 0 rgba(163, 189, 227, 0.25), 0 -2em 0 #1abc9c, 2em 0 0 rgba(163, 189, 227, 0.75), 0 2em 0 rgba(163, 189, 227, 0.5);
+        box-shadow: -2em 0 0 rgba(163, 189, 227, 0.25), 0 -2em 0 #179858, 2em 0 0 rgba(163, 189, 227, 0.75), 0 2em 0 rgba(163, 189, 227, 0.5);
       }
       50% {
-        box-shadow: -2em 0 0 rgba(163, 189, 227, 0.5), 0 -2em 0 rgba(163, 189, 227, 0.25), 2em 0 0 #1abc9c, 0 2em 0 rgba(163, 189, 227, 0.75);
+        box-shadow: -2em 0 0 rgba(163, 189, 227, 0.5), 0 -2em 0 rgba(163, 189, 227, 0.25), 2em 0 0 #179858, 0 2em 0 rgba(163, 189, 227, 0.75);
       }
       75% {
-        box-shadow: -2em 0 0 rgba(163, 189, 227, 0.75), 0 -2em 0 rgba(163, 189, 227, 0.5), 2em 0 0 rgba(163, 189, 227, 0.25), 0 2em 0 #1abc9c;
+        box-shadow: -2em 0 0 rgba(163, 189, 227, 0.75), 0 -2em 0 rgba(163, 189, 227, 0.5), 2em 0 0 rgba(163, 189, 227, 0.25), 0 2em 0 #179858;
       }
       100% {
-        box-shadow: -2em 0 0 #1abc9c, 0 -2em 0 rgba(163, 189, 227, 0.75), 2em 0 0 rgba(163, 189, 227, 0.5), 0 2em 0 rgba(163, 189, 227, 0.25);
+        box-shadow: -2em 0 0 #179858, 0 -2em 0 rgba(163, 189, 227, 0.75), 2em 0 0 rgba(163, 189, 227, 0.5), 0 2em 0 rgba(163, 189, 227, 0.25);
       }
     }
     .preloader {
@@ -1400,9 +1400,9 @@ footer.footer p a{
               animation-iteration-count: infinite;
       -webkit-animation-timing-function: linear;
               animation-timing-function: linear;
-      background-color: #1abc9c;
+      background-color: #179858;
       border-radius: 2px;
-      box-shadow: -2em 0 0 #1abc9c, 2em 0 0 #1abc9c, 0 -2em 0 #1abc9c, 0 2em 0 #1abc9c;
+      box-shadow: -2em 0 0 #179858, 2em 0 0 #179858, 0 -2em 0 #179858, 0 2em 0 #179858;
       height: 1.5em;
       margin: 4em;
       width: 1.5em;
