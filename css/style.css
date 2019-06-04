@@ -292,7 +292,7 @@ html, body, .wrapper{
 .header-top-section{
     display: block;
     width: 100%;
-    background: #680505;
+    background: #179858;
     color: #fff;
 }
 
@@ -725,7 +725,7 @@ a.carousel-control.right > span{
 
 .product-title{
     display: block;
-    background: #680505;
+    background: #179858;
     width: 100%;
     position: absolute;
     bottom: 30;
@@ -734,7 +734,7 @@ a.carousel-control.right > span{
     transition: all 0.5s;
 }
 .product-item:hover .product-title{
-    background:#680505;
+    background:#179858;
 }
 
 .product-title h3{
@@ -751,7 +751,7 @@ a.carousel-control.right > span{
 }
 .product-title span{
     display: block;
-    background: #179858;
+    background: #FF0101;
     float: right;
     text-align: left;
     color: #fff;
