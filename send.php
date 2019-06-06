@@ -10,7 +10,7 @@ $name = trim($name);
 $phone = trim($phone);
 
 if (mail("cuminby@mail.ru", "Заявка с сайта", "Имя:  ".$name. " | Телефон:  ".$phone." | Сообщение: ".$message." \r\n"))
- {     header("Location: /blog.html");
+ {     header("Location: /thanks.html");
        exit;
 } else {
     echo "Возникла ошибка, перезвоните нам, пожалуйста 8 029 768 93 18 ";
