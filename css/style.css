@@ -188,7 +188,7 @@ iframe,embed,object {
     max-width: 100%;
 }
 input,textarea {
-    color: #000 !important
+    color: #fff !important
 }
 
 html, body, .wrapper{
@@ -1045,7 +1045,7 @@ a.carousel-control.right > span{
     width: 100% !important;
     height: 100%;
     height: 63px;
-    color: #000;
+    color: #fff;
     font-size: 16px;
     padding: 20px;
 }
@@ -1275,9 +1275,9 @@ a.carousel-control.right > span{
     height: 150px;
 }
 .contact-form .input-group .form-control:focus, .contact-form .input-group .form-control:hover{
-    border: 1px solid #179858;
+    border: 1px solid #fff;
     box-shadow: none;
-    color: #179858 !important;
+    color: #fff !important;
 }
 
 .contact-form .input-group input.contact-submit{
