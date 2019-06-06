@@ -1556,3 +1556,7 @@ footer.footer p a{
         z-index: 999;
     }
 }
+.align-center{
+  margin-left: 20px;
+  text-align: center;
+}
