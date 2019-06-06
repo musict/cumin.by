@@ -658,11 +658,11 @@ a.carousel-control.right > span{
 .new-section{
     background: #fff;
     display: block;
-    padding: 100px 0 80px;
+    padding: 0px 0 80px;
 }
 .product-item{
     position: relative;
-    margin-top: 100px;
+    margin-top: 40px;
     transition: all 0.5s
 }
 .product-item img{
@@ -1098,7 +1098,7 @@ a.carousel-control.right > span{
  */
 .news-section{
     display: block;
-    padding: 100px 0 80px;
+    padding: 50px 0 80px;
 }
 .news-section .titie-section{
     display: block;
