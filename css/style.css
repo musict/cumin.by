@@ -113,7 +113,7 @@ body {
     margin: 0;
 }
 a {
-    color: #0098d7;
+    color: #179858;
     padding: 0;
     margin: 0;
     text-decoration: none;
@@ -904,7 +904,7 @@ a.carousel-control.right > span{
     REVIEW SECTION
  */
 .review-section{
-    padding: 100px 0 60px;
+    padding: 50px 0 60px;
     display: block;
     width: 100%;
 }
@@ -1518,6 +1518,9 @@ footer.footer p a{
 
     .slider-section{
         height: 35%;
+    }
+    .carousel-caption{
+      font-size: 120px;
     }
     .new-section{
 
