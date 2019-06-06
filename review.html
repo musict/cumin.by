@@ -144,16 +144,16 @@
           </div>
         </div>
         <div class="col-md-6 wow fadeInRight animated">
-          <form action="" method="" class="contact-form">
+          <form action="send.php" method="post" class="contact-form">
             <div class="row">
               <div class="col-md-6">
                 <div class="input-group">
-                  <input type="text" class="form-control" id="name" placeholder="Ваше имя">
+                  <input type="text" class="form-control" name="name" placeholder="Ваше имя">
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="input-group">
-                  <input type="text" class="form-control" id="name" placeholder="Ваш телефон">
+                  <input type="text" class="form-control" name="phone" placeholder="Ваш телефон">
                 </div>
               </div>
             </div>
@@ -161,7 +161,7 @@
             <div class="row">
               <div class="col-md-12">
                 <div class="input-group">
-                  <textarea name="" id="" class="form-control" cols="30" rows="5" placeholder="Ваше сообщение..."></textarea>
+                  <textarea class="form-control" name="message" cols="30" rows="5" placeholder="Ваше сообщение..."></textarea>
                 </div>
               </div>
             </div>
