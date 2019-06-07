@@ -1450,6 +1450,9 @@ footer.footer p a{
     .blog-item h3{
         font-size: 15px;
     }
+    .contact-section{
+      background: url(../images/map-bg.png) #2d3237 no-repeat;
+    }
     .blog-item p{
         font-size: 12px;
     }
