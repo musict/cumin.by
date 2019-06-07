@@ -1154,8 +1154,8 @@ a.carousel-control.right > span{
     CONTACT SECTION
  */
 .contact-section{
-    background: url(../images/map-bg.png) #2d3237 no-repeat;
-  /*  background-size: 100%;   */
+    background: url(../images/map-bg.jpg) #2d3237 no-repeat;
+    background-size: 100%;
     background-position: center center;
     padding: 100px 0 80px;
     display: block;
