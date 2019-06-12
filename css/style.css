@@ -649,7 +649,7 @@ a.carousel-control.right > span{
 .new-section{
     background: #fff;
     display: block;
-    padding: 0px 0 80px;
+    padding: 0px 0 120px;
 }
 .product-item{
     position: relative;
@@ -715,15 +715,17 @@ a.carousel-control.right > span{
 }
 
 .product-title{
+    margin-top: 40px;
     display: block;
     background: #179858;
     width: 100%;
-    position: absolute;
-    bottom: 30;
+    position: relative;
     height: 40px;
     overflow: hidden;
     transition: all 0.5s;
+
 }
+
 .product-item:hover .product-title{
     background:#179858;
 }
@@ -731,14 +733,15 @@ a.carousel-control.right > span{
 .product-title h3{
     margin: 0;
     padding: 0;
-    text-align: center;
+    text-align: left;
     color: #fff;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 12px;
-    /* float: left; */
+    float: left;
     padding: 10px;
     padding-left: 15px;
+
 }
 .product-title span{
     display: block;
