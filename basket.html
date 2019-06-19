@@ -55,19 +55,19 @@
       <h3>Для оформления заказа выберите товар и количество. Заполните необходимые поля для доставки по почте. Мы перезвоним на указанный номер, для уточнения деталей доставки. Спасибо за покупку! <br><br><br> </h3>
     </div>
 
-    <form action="send.php" method="post" class="basket-form">
+    <form action="send_basket.php" method="post" class="basket-form">
 
       <div class="row">
         <div class="col-sm-4">
           <img src="images/mini4.jpg" class="img-responsive" width="100" height="100" alt="">
         </div>
         <div class="col-sm-4">
-          <h3><b>Семена черного тмина 100 гр.</b></h3>
+          <h3><b>Семена черного тмина 100 гр. (5р)</b></h3>
         </div>
         <div class="col-sm-4">
           <div class="input-group">
             <br>
-            <input type="text" class="form-control" name="100gr" placeholder="0">
+            <input type="text" class="form-control" name="gr100" placeholder="0">
             <br><br><br>
           </div>
         </div>
@@ -78,12 +78,12 @@
           <img src="images/mini1.jpg" class="img-responsive" width="100" height="100" alt="">
         </div>
         <div class="col-sm-4">
-          <h3><b>Масло черного тмина 100 мл.</b></h3>
+          <h3><b>Масло черного тмина 100 мл. (19р)</b></h3>
         </div>
         <div class="col-sm-4">
           <div class="input-group">
             <br>
-            <input type="text" class="form-control" name="100ml" placeholder="0">
+            <input type="text" class="form-control" name="ml100" placeholder="0">
             <br><br><br>
           </div>
         </div>
@@ -94,12 +94,12 @@
           <img src="images/mini2.jpg" class="img-responsive" width="100" height="100" alt="">
         </div>
         <div class="col-sm-4">
-          <h3><b>Масло черного тмина 250 мл.</b></h3>
+          <h3><b>Масло черного тмина 250 мл. (46р)</b></h3>
         </div>
         <div class="col-sm-4">
           <div class="input-group">
             <br>
-            <input type="text" class="form-control" name="100ml" placeholder="0">
+            <input type="text" class="form-control" name="ml250" placeholder="0">
             <br><br><br>
           </div>
         </div>
@@ -110,12 +110,12 @@
           <img src="images/mini3.jpg" class="img-responsive" width="100" height="100" alt="">
         </div>
         <div class="col-sm-4">
-          <h3><b>Масло черного тмина 500 мл.</b></h3>
+          <h3><b>Масло черного тмина 500 мл. (86р)</b></h3>
         </div>
         <div class="col-sm-4">
           <div class="input-group">
             <br>
-            <input type="text" class="form-control" name="500ml" placeholder="0">
+            <input type="text" class="form-control" name="ml500" placeholder="0">
             <br><br><br>
           </div>
         </div>
@@ -131,34 +131,13 @@
         <div class="col-md-4">
           <div class="input-group">
             <br><br>
-            <input type="text" class="form-control" name="Address" placeholder="Область">
+            <input type="text" class="form-control" name="oblast" placeholder="Область">
           </div>
         </div>
         <div class="col-md-4">
           <div class="input-group">
             <br><br>
-            <input type="text" class="form-control" name="Address" placeholder="Город">
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-4">
-          <div class="input-group">
-            <br><br>
-            <input type="text" class="form-control" name="Address" placeholder="Улица">
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="input-group">
-            <br><br>
-            <input type="text" class="form-control" name="Address" placeholder="Дом">
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="input-group">
-            <br><br>
-            <input type="text" class="form-control" name="Address" placeholder="Квартира">
+            <input type="text" class="form-control" name="city" placeholder="Город">
           </div>
         </div>
       </div>
@@ -167,19 +146,40 @@
         <div class="col-md-4">
           <div class="input-group">
             <br><br>
-            <input type="text" class="form-control" name="Address" placeholder="Телефон">
+            <input type="text" class="form-control" name="street" placeholder="Улица">
           </div>
         </div>
         <div class="col-md-4">
           <div class="input-group">
             <br><br>
-            <input type="text" class="form-control" name="Address" placeholder="Фамилия">
+            <input type="text" class="form-control" name="d" placeholder="Дом">
           </div>
         </div>
         <div class="col-md-4">
           <div class="input-group">
             <br><br>
-            <input type="text" class="form-control" name="Address" placeholder="Имя, отчество">
+            <input type="text" class="form-control" name="kv" placeholder="Квартира">
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="input-group">
+            <br><br>
+            <input type="text" class="form-control" name="phone" placeholder="Телефон">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="input-group">
+            <br><br>
+            <input type="text" class="form-control" name="name1" placeholder="Фамилия">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="input-group">
+            <br><br>
+            <input type="text" class="form-control" name="name2" placeholder="Имя, отчество">
           </div>
         </div>
       </div>
