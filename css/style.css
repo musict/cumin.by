@@ -406,6 +406,8 @@ ul.navbar-nav.cart-menu li a .fa-search{
 }
 
 span.shoping-cart {
+    margin-top: 5%;
+    margin-left: 15%;
     border: 1px solid #0f0101;
     padding: 2px 7px 2px 6px;
     text-align: center;
