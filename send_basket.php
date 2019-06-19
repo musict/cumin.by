@@ -62,8 +62,8 @@ $name1 = trim($name1);
 $name2 = trim($name2);
 
 
-if (mail("cuminby@mail.ru", "Заявка с сайта", "Товар: Семена :  ".$gr100. " | 100ml :  ".$ml100. " | 250ml :  ".$ml250. " | 500ml :  ".$ml500. " | \r\n
-Адрес: Индекс :  ".$index." | Область :  ".$oblast." | Город :  ".$city." | Улица :  ".$street." | Дом :  ".$d." | Квартира :  ".$kv." | \r\n
+if (mail("cuminby@mail.ru", "Заявка с сайта", "Семена :  ".$gr100. " | 100ml :  ".$ml100. " | 250ml :  ".$ml250. " | 500ml :  ".$ml500. " \r\n
+Индекс :  ".$index." | Область :  ".$oblast." | Город :  ".$city." | Улица :  ".$street." | Дом :  ".$d." | Квартира :  ".$kv." | \r\n
  Телефон :  ".$phone." | Фамилия :  ".$name1." | Имя :  ".$name2." |  \r\n"))
  {     header("Location: /thanks.html");
        exit;
