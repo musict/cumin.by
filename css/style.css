@@ -187,8 +187,9 @@ video {
 iframe,embed,object {
     max-width: 100%;
 }
+/***************************************************/
 input,textarea {
-    color: #fff !important
+    color: #179858 !important
 }
 
 html, body, .wrapper{
@@ -1155,6 +1156,7 @@ a.carousel-control.right > span{
     display: block;
     position: relative;
 }
+
 .contact-section:before{
     content: "";
     width: 100%;
@@ -1245,6 +1247,9 @@ a.carousel-control.right > span{
     background: #179858;
     border: 1px solid #179858;
 }
+
+/********************************************/
+
 .contact-form{
     margin-top: 10px;
     display: block;
@@ -1285,8 +1290,68 @@ a.carousel-control.right > span{
     text-transform: uppercase;
 }
 
-/*
-    FOOTER SECTION
+
+/********************************************/
+
+
+
+.basket-form{
+    margin-top: 10px;
+    display: block;
+}
+.basket-form {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.basket-form .basket-input-group{
+    width: 100%;
+    display: block;
+}
+.basket-form .basket-input-group input.basket-form-control, .basket-contact-form .basket-input-group textarea.basket-form-control{
+    width: 100%;
+    display: block;
+    background: transparent;
+    border: 1px solid #0A0A0A;
+    height: 50px;
+}
+.basket-form .basket-input-group textarea.basket-form-control{
+    height: 150px;
+}
+.basket-form .basket-input-group .basket-form-control:focus, .basket-form .basket-input-group .basket-form-control:hover{
+    border: 1px solid #0A0A0A;
+    box-shadow: none;
+    color: #0A0A0A !important;
+}
+
+.basket-form .basket-input-group input.basket-contact-submit{
+    display: inline-block;
+    background: #0A0A0A !important;
+    padding: 10px 40px;
+    border: none;
+    color: #0A0A0A !important;
+    margin-top: 30px;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.basket-form .basket-form-control::-webkit-input-placeholder{
+    color: #0A0A0A !important;
+}
+.basket-form .basket-form-control::-moz-placeholder{
+    color: #0A0A0A !important;
+}
+.basket-form .basket-form-control:-moz-placeholder{
+    color: #0A0A0A !important;
+}
+.basket-form .basket-form-control:-ms-input-placeholder{
+    color: #0A0A0A !important;
+}
+
+
+
+/*    FOOTER SECTION
  */
 footer.footer{
     display: block;

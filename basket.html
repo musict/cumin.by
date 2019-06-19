@@ -1,0 +1,229 @@
+<!doctype html>
+<html class="no-js" lang="ru">
+<head>
+  <meta http-equiv="Cache-Control" content="no-cache">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Корзина</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- PRELOADER -->
+  <div id="preloader">
+    <div class="preloader-area">
+      <div class="preloader-box">
+        <div class="preloader"></div>
+      </div>
+    </div>
+  </div>
+
+  <header class="header-section">
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Меню</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"><b>Cu</b>min</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Магазин</a></li>
+            <li><a href="polza_tmina.html">Польза тмина</a></li>
+            <li><a href="production.html">Производство</a></li>
+            <li><a href="blog.html">Блог</a></li>
+            <li><a href="review.html">Отзывы</a></li>
+            <li><a href="contact.html">Контакты</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right cart-menu">
+            <!--<li><a href="#"><span> Корзина &nbsp;</span> <span class="shoping-cart">0</span></a></li>-->
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </nav>
+  </header>
+
+  <div class="container">
+
+    <div class="col-sm-12">
+      <h3>Для оформления заказа выберите товар и количество. Заполните необходимые поля для доставки по почте. Мы перезвоним на указанный номер, для уточнения деталей доставки. Спасибо за покупку! <br><br><br> </h3>
+    </div>
+
+    <form action="send.php" method="post" class="basket-form">
+
+      <div class="row">
+        <div class="col-sm-4">
+          <img src="images/mini4.jpg" class="img-responsive" width="100" height="100" alt="">
+        </div>
+        <div class="col-sm-4">
+          <h3><b>Семена черного тмина 100 гр.</b></h3>
+        </div>
+        <div class="col-sm-4">
+          <div class="input-group">
+            <br>
+            <input type="text" class="form-control" name="100gr" placeholder="0">
+            <br><br><br>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-4">
+          <img src="images/mini1.jpg" class="img-responsive" width="100" height="100" alt="">
+        </div>
+        <div class="col-sm-4">
+          <h3><b>Масло черного тмина 100 мл.</b></h3>
+        </div>
+        <div class="col-sm-4">
+          <div class="input-group">
+            <br>
+            <input type="text" class="form-control" name="100ml" placeholder="0">
+            <br><br><br>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-4">
+          <img src="images/mini2.jpg" class="img-responsive" width="100" height="100" alt="">
+        </div>
+        <div class="col-sm-4">
+          <h3><b>Масло черного тмина 250 мл.</b></h3>
+        </div>
+        <div class="col-sm-4">
+          <div class="input-group">
+            <br>
+            <input type="text" class="form-control" name="100ml" placeholder="0">
+            <br><br><br>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-4">
+          <img src="images/mini3.jpg" class="img-responsive" width="100" height="100" alt="">
+        </div>
+        <div class="col-sm-4">
+          <h3><b>Масло черного тмина 500 мл.</b></h3>
+        </div>
+        <div class="col-sm-4">
+          <div class="input-group">
+            <br>
+            <input type="text" class="form-control" name="500ml" placeholder="0">
+            <br><br><br>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="input-group">
+            <br><br>
+            <input type="text" class="form-control" name="index" placeholder="Индекс">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="input-group">
+            <br><br>
+            <input type="text" class="form-control" name="Address" placeholder="Область">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="input-group">
+            <br><br>
+            <input type="text" class="form-control" name="Address" placeholder="Город">
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="input-group">
+            <br><br>
+            <input type="text" class="form-control" name="Address" placeholder="Улица">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="input-group">
+            <br><br>
+            <input type="text" class="form-control" name="Address" placeholder="Дом">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="input-group">
+            <br><br>
+            <input type="text" class="form-control" name="Address" placeholder="Квартира">
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="input-group">
+            <br><br>
+            <input type="text" class="form-control" name="Address" placeholder="Телефон">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="input-group">
+            <br><br>
+            <input type="text" class="form-control" name="Address" placeholder="Фамилия">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="input-group">
+            <br><br>
+            <input type="text" class="form-control" name="Address" placeholder="Имя, отчество">
+          </div>
+        </div>
+      </div>
+
+      <div class="align-center">
+        <div class="col-md-12">
+          <div>
+            <br><br><br><br><br>
+            <input type="submit" class="basket-contact-submit" value="Отправить заказ" />
+          </div>
+        </div>
+      </div>
+
+      <br><br><br><br><br><br>
+
+    </form>
+
+    <form action="send.php" method="post" class="basket-form">
+
+
+      <br><br><br><br>
+    </form>
+
+
+  </div>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p class="center">Copyright &copy;<script>document.write(new Date().getFullYear());</script> Все права защищены | Cumin.by полезная продукция из тмина </a></p>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JQUERY -->
+  <script src="js/vendor/jquery-1.11.2.min.js"></script>
+  <script src="js/vendor/bootstrap.min.js"></script>
+  <script src="js/isotope.pkgd.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+</html>
