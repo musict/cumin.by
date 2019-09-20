@@ -18,7 +18,7 @@ $name = trim($name);
 $time = trim($time);
 
 
-if (mail("cuminby@mail.ru", "Заявка с сайта", "Сообщение: ".$time." "))
+if (mail("cuminby@mail.ru", "Заявка с сайта", "Имя:  ".$name. " | Телефон:  ".$phone." | Сообщение: ".$time." "))
  {     header("Location: /thanks.html");
        exit;
 } else {
