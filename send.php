@@ -3,7 +3,7 @@ if (isset($_POST['g-recaptcha-response'])) $captcha_response = $_POST['g-recaptc
 else die('На форме нет капчи! Обратитесь к администратору!');
 $url = 'https://www.google.com/recaptcha/api/siteverify';
 $params = [
-    'secret' => '6LejOvUZAAAAANFGcHsBH5rLPd55HiKcdaqTWaSs',
+    'secret' => '6LfMSfUZAAAAAHLC4Q00D5QD1yrhzWwlp1EZDg8T',
     'response' => $captcha_response,
     'remoteip' => $_SERVER['REMOTE_ADDR']
 ];
