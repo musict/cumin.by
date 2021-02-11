@@ -55,6 +55,13 @@
   <section class="contact-section">
     <div class="container">
       <div class="row">
+        <div class="col-sm-12">
+          <div class="titie-section wow fadeInDown animated ">
+            <h1>Свяжитесь с нами</h1>
+          </div>
+        </div>
+      </div>
+      <div class="row">
         <div class="col-md-6">
           <div class="left-content">
             <h1><span>Cu</span>min</h1>
@@ -64,15 +71,12 @@
               <p><b>Телефон:</b> 8 029 127 92 71</p>
               <p><b>Почта:</b> cuminby@mail.ru</p>
             </div>
-            <div class="social-media">
-              <ul>
-                <!--<li><a href="#"><i class="fa fa-instagram"></i></a></li>-->
-              </ul>
-            </div>
           </div>
         </div>
         <div class="col-md-6">
+
           <form action="send.php" method="post" class="contact-form">
+
             <div class="row">
               <div class="col-md-6">
                 <div class="input-group">
@@ -94,6 +98,16 @@
               </div>
             </div>
 
+            <br><br>
+            
+            <!--reCAPTCHA -->
+            <div class="col-md-12">
+              <div class="g-recaptcha" data-sitekey="6LfMSfUZAAAAAIAZuVGIkbUxQr7npV0fJ0bI99mv"></div>
+              <div class="text-danger" id="recaptchaError"></div>
+              <script src='https://www.google.com/recaptcha/api.js'></script>
+              <br><br><br>
+            </div>
+
             <div class="row">
               <div class="col-md-12">
                 <div class="input-group">
@@ -101,8 +115,7 @@
                 </div>
               </div>
             </div>
-
-          </form><br><br>
+          </form>
         </div>
       </div>
     </div>
